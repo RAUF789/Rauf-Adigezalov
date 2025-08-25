@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример</title>
+    <style>
+        /* 1. Все абзацы зелёного цвета */
+        p {
+            color: green;
+        }
+
+        /* 2. Абзац с классом "important" будет жирным */
+        .important {
+            font-weight: bold;
+        }
+
+        /* 3. Заголовок с id "main-title" будет синим */
+        #main-title {
+            color: blue;
+        }
+
+        /* 4. Второй абзац с классом "note" будет зелёным, остальные обычные */
+        p.note {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 3. Заголовок с id="main-title" -->
+    <h1 id="main-title">Заголовок</h1>
+
+    <!-- 1. Абзацы с зелёным текстом -->
+    <p>Первый абзац</p>
+    <p class="important">Второй абзац (жирный)</p>
+    <p>Третий абзац</p>
+
+    <!-- 4. Абзацы с классом "note" для второго -->
+    <p>Первый абзац</p>
+    <p class="note">Второй абзац (зелёный)</p>
+    <p>Третий абзац</p>
+
+</body>
+</html>
